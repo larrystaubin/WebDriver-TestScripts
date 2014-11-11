@@ -1,4 +1,4 @@
-package com.packt.webdriver.chapter1;
+package com.larrystaubin.one;
 
 import java.util.List;
 import org.openqa.selenium.By;
