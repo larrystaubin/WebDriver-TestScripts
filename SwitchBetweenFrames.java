@@ -16,7 +16,9 @@ public class SwitchBetweenFrames {
 		driver.switchTo().frame(0);
 		WebElement txt = driver.findElement(By.name("1"));
 		txt.sendKeys("I'm Frame One");
-
+		
+		//Need to switch first to the default content so webdriver is able to 
+		//re-index it's search for frame 1
 		driver.switchTo().defaultContent();
 
 		driver.switchTo().frame(1);
